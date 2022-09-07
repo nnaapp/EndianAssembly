@@ -1,10 +1,10 @@
 .386
 .model flat, stdcall
 .stack 8192
-include kernel32.inc
-includelib kernel32.lib
-include user32.inc
-includelib user32.lib
+include C:\masm32\include\kernel32.inc
+includelib C:\masm32\lib\kernel32.lib
+include C:\masm32\include\user32.inc
+includelib C:\masm32\lib\user32.lib
 
 .data
 boxtitle  db 'Endianness Checker', 0
